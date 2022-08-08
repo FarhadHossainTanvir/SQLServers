@@ -1,6 +1,6 @@
 # SQLServers common queries
 
----Disk Space---
+:maple_leaf:---Disk Space---
 ---Read/Write/Execute access---
 ---DROP a database---
 ---Blocking check---
