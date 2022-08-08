@@ -1,13 +1,13 @@
 # SQLServers common queries
 
-:maple_leaf:---Disk Space---
----Read/Write/Execute access---
----DROP a database---
----Blocking check---
----Service account check---
----Job Running by SPID---
----Wo is blocking who by which STATEMENT---
----How longjobs are running---
----Check user access on DBs---
----TEMPDB statistics---
----Job compeletion rate check---
+:maple_leaf:Disk Space
+:grapes:Read/Write/Execute access
+:watermelon:DROP a database
+:pineapple:Blocking check
+:apple:Service account check
+:strawberry:Job Running by SPID
+:cherries:Wo is blocking who by which STATEMENT
+:lemon:How longjobs are running
+:tomato:Check user access on DBs
+:mango:TEMPDB statistics
+:pear:Job compeletion rate check
