@@ -1,4 +1,5 @@
 # SQLServers common queries
+These are the common issues we'll explore. Hope you will find it useful.
 
 :maple_leaf:Disk Space
 
