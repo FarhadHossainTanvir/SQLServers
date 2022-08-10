@@ -11,11 +11,9 @@ These are the common issues we'll explore. Hope you will find it useful.
 
 :apple:Service account check
 
-:strawberry:Job Running by SPID
-
 :cherries:Wo is blocking who by which STATEMENT
 
-:lemon:How longjobs are running
+:lemon:How long jobs are running
 
 :tomato:Check user access on DBs
 
