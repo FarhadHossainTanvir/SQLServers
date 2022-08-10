@@ -11,8 +11,6 @@ These are the common issues we'll explore. Hope you will find it useful.
 
 :apple:Service account check
 
-:cherries:Who is blocking who by which STATEMENT
-
 :lemon:How long jobs are running
 
 :tomato:Check user access on DBs
