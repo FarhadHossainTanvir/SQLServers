@@ -11,7 +11,7 @@ These are the common issues we'll explore. Hope you will find it useful.
 
 :apple:Service account check
 
-:cherries:Wo is blocking who by which STATEMENT
+:cherries:Who is blocking who by which STATEMENT
 
 :lemon:How long jobs are running
 
