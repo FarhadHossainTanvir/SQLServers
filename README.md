@@ -1,5 +1,5 @@
 # SQLServers common queries
-These are the common issues we'll explore. Hope you will find it useful.
+These are the common queries we need to use day-by-day. Here are some of them. We'll explore others step by step.
 
 :maple_leaf:Disk Space
 
