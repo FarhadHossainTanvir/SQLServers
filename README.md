@@ -18,3 +18,5 @@ These are the common queries we need to use day-by-day. Here are some of them. W
 :mango:TEMPDB statistics
 
 :pear:Job compeletion rate check
+
+🌺 Backup all DBs at a time
