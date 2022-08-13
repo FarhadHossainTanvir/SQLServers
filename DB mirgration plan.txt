@@ -1,0 +1,11 @@
+Say we want to move a DB from an older version server to a newer version Server.
+You must know - Source Server name, Destination Server name and the DB/DBs you want to move.
+
+If it's connected to any web server- Stop service from there --Application Team
+Put database to read only, take backup and restore to target server -- DBA team
+Change database compatibility level to newer Server -- DBA team
+Move service account (related to DBs) and SQL Agent job - Related to DBs -- DBA team
+Change connection string to point to target server -- Application team
+Verify connection on the target server -- DBA team
+Testing and confirmation -- Application
+Put source server database to offline --DBA team
