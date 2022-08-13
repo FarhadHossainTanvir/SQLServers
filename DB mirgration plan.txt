@@ -2,17 +2,21 @@ Say we want to move a DB from an older version server to a newer version Server.
 You must know - Source Server name, Destination Server name and the DB/DBs you want to move.
 
 Implementation Plan
-🌱If it's connected to any web server- Stop service from there --Application Team
+🌱If it's connected to any web server- Stop service from there --Application Team/Responsible team
 🌱Put database to read only, take backup and restore to target server -- DBA team
 🌱Change database compatibility level to newer Server -- DBA team
 🌱Move service account (related to DBs) and SQL Agent job - Related to DBs -- DBA team
 🌱Change connection string to point to target server -- Application team
 🌱Verify connection on the target server -- DBA team
+🌱Change CNAME to the restored DBs - SysAdmin/Responsible team
 🌱Testing and confirmation -- Application
 🌱Put source server database to offline --DBA team
 🌱Disable the jobs that you just moved from source server.
 
-Backout Plan
+Backout Plan :: If something bad happens/Couldn't finish in time
+👀Remove restored database on target server
+👀Change database to ONLINE on source server
+👀Update connection string to point to source server
 
 
 
