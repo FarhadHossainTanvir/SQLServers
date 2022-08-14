@@ -1,5 +1,5 @@
 # SQLServers common queries
-These are the common queries we need to use day-by-day. Here are some of them. We'll explore others step by step.
+Hope this helps a bit!
 
 :maple_leaf:Disk Space
 
