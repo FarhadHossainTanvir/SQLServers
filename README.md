@@ -33,3 +33,5 @@ The main goal of many organizations, today, is reducing costs while maintaining 
     Reducing the Microsoft license for Windows and SQL Server
 
 Database Migration is a possible solution to achieve this goal. However, some DBA’s do not have a clear view of the requirements, and the actual steps for how to accomplish this with minimum risks and zero downtime. 
+
+For best follow this link: https://www.sqlshack.com/sql-server-database-migration-best-practices-low-risk-downtime/
