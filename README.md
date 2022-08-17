@@ -25,4 +25,11 @@ Hope this helps a bit!
 
 
 # SQL Server Migration Plan
-🌱 Migration Plan
+## Migration Plan
+The main goal of many organizations, today, is reducing costs while maintaining the highest degree of stability and efficiency. To this end, we should think out of the box about how we can help to achieve this as DBAs. The approaches include:
+
+    Centralization
+    Curtailment the SAN storage
+    Reducing the Microsoft license for Windows and SQL Server
+
+Database Migration is a possible solution to achieve this goal. However, some DBA’s do not have a clear view of the requirements, and the actual steps for how to accomplish this with minimum risks and zero downtime. 
