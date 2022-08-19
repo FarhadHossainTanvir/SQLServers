@@ -40,3 +40,11 @@ Check this [link](https://www.sqlshack.com/sql-server-database-migration-best-pr
 Locking is the way that SQL Server manages transaction concurrency. Essentially, locks are in-memory structures which have owners, types, and the hash of the resource that it should protect. A lock as an in-memory structure is 96 bytes in size. 
 
 To understand better the locking in SQL Server, it is important to understand that locking is designed to ensure the integrity of the data in the database, as it forces every SQL Server transaction to pass the ACID test. 
+
+ACID test consists of 4 requirements that every transaction have to pass successfully: 
+
+   - Atomicity – requires that a transaction that involves two or more discrete parts of information must commit all parts or none
+   - Consistency – requires that a transaction must create a valid state of new data, or it must roll back all data to the state that existed before the transaction was executed
+   - Isolation – requires that a transaction that is still running and did not commit all data yet, must stay isolated from all other transactions
+   - Durability – requires that committed data must be stored using method that will preserve all data in correct state and available to a user, even in case of a failure
+
