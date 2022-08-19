@@ -49,3 +49,10 @@ ACID test consists of 4 requirements that every transaction have to pass success
    - Durability – requires that committed data must be stored using method that will preserve all data in correct state and available to a user, even in case of a failure
 
 ## Lock modes
+ Lock mode considers various lock types that can be applied to a resource that has to be locked:
+    -Exclusive (X)
+    -Shared (S)
+    -Update (U)
+    -Intent (I)
+    -Schema (Sch)
+    -Bulk update (BU)
