@@ -57,3 +57,5 @@ ACID test consists of 4 requirements that every transaction have to pass success
     - Intent (I)
     - Schema (Sch)
     - Bulk update (BU)
+    
+    [SQLShack](https://www.sqlshack.com/locking-sql-server/) has a great article on Locks. Please have a look.
