@@ -37,4 +37,4 @@ Database Migration is a possible solution to achieve this goal. However, some DB
 Check this [link](https://www.sqlshack.com/sql-server-database-migration-best-practices-low-risk-downtime/) for more info.
 
 #  Locking in SQL Server
-
+Locking is the way that SQL Server manages transaction concurrency. Essentially, locks are in-memory structures which have owners, types, and the hash of the resource that it should protect. A lock as an in-memory structure is 96 bytes in size. 
