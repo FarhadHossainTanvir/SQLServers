@@ -48,3 +48,4 @@ ACID test consists of 4 requirements that every transaction have to pass success
    - Isolation – requires that a transaction that is still running and did not commit all data yet, must stay isolated from all other transactions
    - Durability – requires that committed data must be stored using method that will preserve all data in correct state and available to a user, even in case of a failure
 
+## Lock modes
