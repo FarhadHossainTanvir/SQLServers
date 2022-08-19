@@ -50,6 +50,7 @@ ACID test consists of 4 requirements that every transaction have to pass success
 
 ## Lock modes
  Lock mode considers various lock types that can be applied to a resource that has to be locked:
+ 
     - Exclusive (X)
     - Shared (S)
     - Update (U)
