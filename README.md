@@ -35,3 +35,6 @@ The main goal of many organizations, today, is reducing costs while maintaining 
 Database Migration is a possible solution to achieve this goal. However, some DBA’s do not have a clear view of the requirements, and the actual steps for how to accomplish this with minimum risks and zero downtime. 
 
 Check this [link](https://www.sqlshack.com/sql-server-database-migration-best-practices-low-risk-downtime/) for more info.
+
+#  Locking in SQL Server
+
