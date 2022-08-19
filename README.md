@@ -38,3 +38,4 @@ Check this [link](https://www.sqlshack.com/sql-server-database-migration-best-pr
 
 #  Locking in SQL Server
 Locking is the way that SQL Server manages transaction concurrency. Essentially, locks are in-memory structures which have owners, types, and the hash of the resource that it should protect. A lock as an in-memory structure is 96 bytes in size. 
+To understand better the locking in SQL Server, it is important to understand that locking is designed to ensure the integrity of the data in the database, as it forces every SQL Server transaction to pass the ACID test. 
