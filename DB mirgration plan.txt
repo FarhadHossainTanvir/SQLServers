@@ -20,3 +20,5 @@ Backout Plan :: If something bad happens/Couldn't finish in time
 
 
 
+# Some Links to follow
+--https://www.sqlshack.com/sql-server-database-migration-best-practices-low-risk-downtime/
