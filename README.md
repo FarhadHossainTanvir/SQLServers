@@ -59,3 +59,5 @@ Lock mode considers various lock types that can be applied to a resource that ha
     - Bulk update (BU)
     
 [SQLShack](https://www.sqlshack.com/locking-sql-server/) has a great article on Locks. Please have a look.
+
+# SQL SERVER – Most Used Database Files – [Script](https://blog.sqlauthority.com/2022/01/04/sql-server-most-used-database-files-script/) by Pinal Dave
