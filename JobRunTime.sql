@@ -1,4 +1,4 @@
----Long running jobs
+---Find any currently running job in SQL server
 SELECT  j.originating_server AS 'Server',
 		j.name AS 'Job Name',
     --j.job_id AS 'Job ID',
