@@ -61,7 +61,7 @@ Lock mode considers various lock types that can be applied to a resource that ha
 [SQLShack](https://www.sqlshack.com/locking-sql-server/) has a great article on Locks. Please have a look.
 
 # SQL SERVER – Most Used Database Files – [Script](https://blog.sqlauthority.com/2022/01/04/sql-server-most-used-database-files-script/) by Pinal Dave
-
+```
    SELECT
       DB_NAME(dbid) 'Database Name',
       physical_name 'File Location',
@@ -78,3 +78,4 @@ Lock mode considers various lock types that can be applied to a resource that ha
        AND fs.fileid = mf.file_id
    ORDER BY
       DB_NAME(dbid)
+```
