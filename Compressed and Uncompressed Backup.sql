@@ -25,3 +25,9 @@ RESTORE DATABASE [StackOverflow2019]
 FROM DISK = N'D:\backup\Uncompressed-Backup.bak'
 WITH RECOVERY
 GO
+
+##Performance Difference
+
+--Compress Backup is smaller in size but took a long time to take backup, however, it was quicker to restore.
+
+--No Compress Backup is of the regular size but was faster to take backup, during restore it took a bit longer than compressed backup.
