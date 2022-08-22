@@ -85,5 +85,5 @@ If the Login account connecting to SSMS is not a part of SysAdmin role in SQL Se
 
 To verify, you can run below query in SQL Server Management Studio and check the output.
 ```SQL	
-Select IS_SRVROLEMEMBER('Sysadmin')
-~~~
+SELECT IS_SRVROLEMEMBER('SYSADMIN')
+```
