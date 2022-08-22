@@ -86,3 +86,7 @@ ORDER BY
   SELECT IS_SRVROLEMEMBER('SYSADMIN')
   ```
 If a value is zero, then you are not a Sysadmin and hence you can’t see SQL Server Agent. Image shows the same behavior.
+- Another possible reason would be that SQL Server in not an edition which supports SQL Server Agent. Typically, SQL Server Express edition could be another cause. To verify, you can run below query in SQL Server Management studio and check the output.
+```SQL
+SELECT SERVERPROPERTY('Edition')
+```
