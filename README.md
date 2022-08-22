@@ -82,11 +82,12 @@ ORDER BY
 # SQL Server Agent Missing in [SSMS](https://blog.sqlauthority.com/2018/11/29/sql-server-sql-server-agent-missing-in-sql-server-management-studio-ssms/)
 #### POSSIBLE CAUSES
 - If the Login account connecting to SSMS is not a part of SysAdmin role in SQL Server, then SQL Server Agent would not be visible? To verify, you can run below query in SQL Server Management Studio and check the output.
-  ```SQL	
-  SELECT IS_SRVROLEMEMBER('SYSADMIN')
-  ```
+```SQL	
+SELECT IS_SRVROLEMEMBER('SYSADMIN')
+```
 If a value is zero, then you are not a Sysadmin and hence you can’t see SQL Server Agent. Image shows the same behavior.
 - Another possible reason would be that SQL Server in not an edition which supports SQL Server Agent. Typically, SQL Server Express edition could be another cause. To verify, you can run below query in SQL Server Management studio and check the output.
 ```SQL
 SELECT SERVERPROPERTY('Edition')
 ```
+If above returns “Express” or “Express Edition with Advanced Services”, then you would not see SQL Server Agent node in SSMS.
