@@ -78,3 +78,5 @@ FROM
     AND fs.fileid = mf.file_id
 ORDER BY
 ```
+
+# SQL Server Agent Missing in [SSMS](https://blog.sqlauthority.com/2018/11/29/sql-server-sql-server-agent-missing-in-sql-server-management-studio-ssms/)
