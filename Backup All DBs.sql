@@ -29,3 +29,4 @@ You can follow this link too
 --https://www.ubackup.com/enterprise-backup/mssql-backup-all-databases-1021.html
 --https://www.mssqltips.com/sqlservertip/1070/simple-script-to-backup-all-sql-server-databases/
 --https://medium.com/swlh/how-to-backup-all-databases-at-once-in-ms-sql-server-88ed2b6cbee9
+Note: Always verify code before running on any environment.
