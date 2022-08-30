@@ -105,11 +105,11 @@ Create a linked server with SSMS
 Open the New Linked Server dialog
 
 ### In SQL Server Management Studio (SSMS):
+- Open Object Explorer.
+- Expand Server Objects.
+- Right-click Linked Servers.
+- Select New Linked Server.
 
-    - Open Object Explorer.
-    - Expand Server Objects.
-    - Right-click Linked Servers.
-    - Select New Linked Server.
 ### Edit the General page for the linked server properties
 ### Edit the Security page for the linked server properties
 ### Add login mappings
@@ -119,12 +119,11 @@ Open the New Linked Server dialog
 
 ## View or edit linked server provider options in SSMS
 To open the linked server Providers Options page in SSMS:
-
-    - Open Object Explorer.
-    - Expand Server Objects.
-    - Expand Linked Servers.
-    - Expand Providers.
-    - Right-click a provider and select Properties.
+- Open Object Explorer.
+- Expand Server Objects.
+- Expand Linked Servers.
+- Expand Providers.
+- Right-click a provider and select Properties.
 
 ##  Create a linked server with Transact-SQL
 To create a linked server by using Transact-SQL, use the sp_addlinkedserver (Transact-SQL), CREATE LOGIN (Transact-SQL), and sp_addlinkedsrvlogin (Transact-SQL) statements.
