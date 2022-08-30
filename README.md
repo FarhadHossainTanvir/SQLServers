@@ -92,3 +92,5 @@ If a value is zero, then you are not a Sysadmin and hence you can’t see SQL Se
 SELECT SERVERPROPERTY('Edition')
 ```
 If above returns “Express” or “Express Edition with Advanced Services”, then you would not see SQL Server Agent node in SSMS.
+
+# [Create Linked Server](https://docs.microsoft.com/en-us/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine?view=sql-server-ver16)
