@@ -94,3 +94,4 @@ SELECT SERVERPROPERTY('Edition')
 If above returns “Express” or “Express Edition with Advanced Services”, then you would not see SQL Server Agent node in SSMS.
 
 # [Create Linked Server](https://docs.microsoft.com/en-us/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine?view=sql-server-ver16)
+Linked servers enable the SQL Server database engine and Azure SQL Managed Instance to read data from the remote data sources and execute commands against the remote database servers (for example, OLE DB data sources) outside of the instance of SQL Server.
