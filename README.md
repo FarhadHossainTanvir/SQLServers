@@ -95,3 +95,55 @@ If above returns “Express” or “Express Edition with Advanced Services”, 
 
 # [Create Linked Server](https://docs.microsoft.com/en-us/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine?view=sql-server-ver16)
 Linked servers enable the SQL Server database engine and Azure SQL Managed Instance to read data from the remote data sources and execute commands against the remote database servers (for example, OLE DB data sources) outside of the instance of SQL Server.
+
+## Permissions
+
+When using Transact-SQL statements, requires ALTER ANY LINKED SERVER permission on the server or membership in the setupadmin fixed server role. When using Management Studio requires CONTROL SERVER permission or membership in the sysadmin fixed server role.
+Create a linked server with SSMS
+
+## Create a linked server with SSMS using the following procedure:
+Open the New Linked Server dialog
+
+### In SQL Server Management Studio (SSMS):
+
+    - Open Object Explorer.
+    - Expand Server Objects.
+    - Right-click Linked Servers.
+    - Select New Linked Server.
+### Edit the General page for the linked server properties
+### Edit the Security page for the linked server properties
+### Add login mappings
+### Specify the default security context for logins not present in the mapping list
+### Edit the Server Options page in linked server properties (optional)
+### Save the linked server
+
+## View or edit linked server provider options in SSMS
+To open the linked server Providers Options page in SSMS:
+
+    - Open Object Explorer.
+    - Expand Server Objects.
+    - Expand Linked Servers.
+    - Expand Providers.
+    - Right-click a provider and select Properties.
+
+##  Create a linked server with Transact-SQL
+To create a linked server by using Transact-SQL, use the sp_addlinkedserver (Transact-SQL), CREATE LOGIN (Transact-SQL), and sp_addlinkedsrvlogin (Transact-SQL) statements.
+
+This example creates a linked server to another instance of SQL Server using Transact-SQL:
+1. In Query Editor, enter the following Transact-SQL command to link to an instance of SQL Server named SRVR002\ACCTG:
+```SQL
+USE [master]  
+GO  
+EXEC master.dbo.sp_addlinkedserver   
+    @server = N'SRVR002\ACCTG',   
+    @srvproduct=N'SQL Server';  
+GO
+```
+2. Execute the following code to configure the linked server to use the domain credentials of the login that is using the linked server.
+```SQL
+EXEC master.dbo.sp_addlinkedsrvlogin   
+    @rmtsrvname = N'SRVR002\ACCTG',   
+    @locallogin = NULL ,   
+    @useself = N'True';  
+GO
+```
