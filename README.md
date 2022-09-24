@@ -148,7 +148,7 @@ GO
 ```
 # Find Owner or Change Owner of Database
 ### Script – Find Owner of Database
-``SQL
+```SQL
 SELECT
     name AS [Database Name], 
     suser_sname( owner_sid ) AS [Database Owner Name]
