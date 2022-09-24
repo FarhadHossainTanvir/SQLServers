@@ -156,6 +156,7 @@ FROM
     sys.databases
 ```
 ### Script – Change Owner of Database
+
 ```SQL
 USE [YourDB]
 GO
