@@ -147,3 +147,18 @@ EXEC master.dbo.sp_addlinkedsrvlogin
 GO
 ```
 # Find Owner or Change Owner of Database
+### Script – Find Owner of Database
+``SQL
+SELECT
+    name AS [Database Name], 
+    suser_sname( owner_sid ) AS [Database Owner Name]
+FROM
+    sys.databases
+```
+### Script – Change Owner of Database
+```SQL
+USE [YourDB]
+GO
+EXEC sp_changedbowner 'sa'
+GO
+```
