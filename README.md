@@ -146,3 +146,4 @@ EXEC master.dbo.sp_addlinkedsrvlogin
     @useself = N'True';  
 GO
 ```
+# Find Owner or Change Owner of Database
