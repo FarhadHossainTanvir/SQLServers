@@ -21,6 +21,8 @@ Hope this helps a bit!
 
 🌺 Backup all DBs at a time
 
+:maple_leaf:Always on AG Dashboard report
+
 
 
 
