@@ -165,3 +165,5 @@ GO
 EXEC sp_changedbowner 'sa'
 GO
 ```
+# Daily Sql Server Health Check
+This is a good [link](https://github.com/rogersdba/SQL-SERVER-DAILY-HEALTH-CHECK) to check your SQL SERVER Health
